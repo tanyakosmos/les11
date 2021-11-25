@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+*{
+    margin: 0 auto;
+}
+.box_header {
+    width: 1510px;
+    height: 1000px;
+}
+
+.box_wraper {
+    width: 100%;
+    height: 600px;
+    background: url(./img/1617104943_lakeside-pink-sky-sunset-minimal-art-gradient-background.jpg) ;
+    background-size: 100%;
+    background-position: center ;
+}
+
+.box_wraper1 {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.box_logo h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.box_menu a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    font-size: 20px;
+}
+.box_menu a:hover {
+    font-size: 25px;
+}
+.box_wraper2 {
+    width: 80%;
+    height: 350px;
+    text-align: center;
+    padding: 130px 0;
+
+}
+.text h2 {
+    color: white;
+    font-size: 60px;
+}
+.text p {
+    color: white;
+    font-size: 20px;
+}
+.knopka {
+    margin-top: 50px;
+}
+.knopka a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 20px 60px;
+    background-color: rgba(169, 169, 169, 0.699);
+    font-size: 20px;
+}
+.knopka a:hover {
+    background-color: white;
+    color: black;
+}
